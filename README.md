@@ -1,7 +1,3 @@
 # Stock Price Forecasting
 
-- Developed time-series models, including LSTMs and gradient boosting, to forecast Dow 30 stock prices using historical data, economic indicators, and congressional trading activity, achieving a 3% improvement over benchmark
-- Enhanced probabilistic forecasts by incorporating lower- and upper-bound scenario modeling to support risk-informed decision-making
-
-
-Project to be completed in December 2024.
+In this project, we implemented and compared multiple prediction algorithms to forecast stock prices 60 business days into the future. The models employed include gradient boosting frameworks such as XGBoost and LightGBM, dense neural networks, and long short-term memory (LSTM) networks. To enhance the predictive accuracy, the models were conditioned on additional macroeconomic inputs including congressional trading, providing insight into the influence of external financial decision-making on stock price trends. Our analysis found the LightGBM model as the best predictive option, offering a mean absolute error of 12.78 between the actual and predicted stock price, along with a 6.82\% improvement over the baseline. Our evaluation highlights the strengths and limitations of each model, with a focus on their robustness, interpretability, and performance in leveraging auxiliary datasets for stock market prediction.
